@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boutonaccueil {
+         background-color:rgb(6, 6, 23) ;
+         border-color:rgb(33, 6, 6) ;
+         color:rgb(198, 195, 195) ;
+         margin-left: 40%;
+         
+         }
+         </style>
     <title>To Do List</title>
 </head>
-<body>
+<body style=" background-color: goldenrod;">
+    
     <h1>To do List</h1>
 
     <label for="urgency-degree">Degrée d'urgence</label>
@@ -17,25 +28,5 @@
         <option value="Peu attendre">Peu attendre</option>
         <option value="A faire plus tard">A faire plus tard</option>
     </select>
-
-    <div class="container mt-5">
-        <h1 class="mb-4">Ma To-Do-List</h1>
-    
-    <form action="" method="post">
-        <div class="form-group">
-            <label for="task">Tâche :</label>
-            <input type="text" class="form-control" id="task" name="task" required>
-        </div>
-
-        <div class="form-group">
-            <label for="due-date">Date d'échéance :</label>
-            <input type="date" class="form-control" id="due-date" name="due-date" required>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Ajouter une tâche</button>
-        <button type="submit" class="btn btn-secondary">Supprimer une tâche</button>
-
-    </form>
-    </div>
 </body>
 </html>
